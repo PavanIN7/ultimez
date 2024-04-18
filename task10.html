@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selectors</title>
+<style>
+  /* Element selector */
+  p {
+    color: blue;
+  }
+
+  /* ID selector */
+  #special {
+    font-weight: bold;
+  }
+
+  /* Class selector */
+  .highlight {
+    background-color: yellow;
+  }
+
+  /* Universal selector */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Grouping selector */
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  /* Pseudo-classes */
+  a:hover {
+    color: red;
+  }
+
+  /* Pseudo-element */
+  p::first-line {
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<h1>CSS Selectors Demo</h1>
+
+<p>This is a paragraph.</p>
+
+<p id="special">This is a special paragraph.</p>
+
+<p class="highlight">This paragraph has a highlighted background.</p>
+
+<a href="#">Hover over me</a>
+
+</body>
+</html>
