@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Background and Borders</title>
+    <style>
+        .longhand {
+            background-image: url('background.jpg');
+            background-repeat: repeat;
+            background-position: center;
+            background-attachment: fixed;
+            
+            border-width: 2px;
+            border-style: solid;
+            border-color: #000;
+        }
+
+        .shorthand {
+            background: url('background.jpg') repeat center fixed;
+        
+            border: 2px solid #000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Element with longhand properties -->
+    <div class="longhand">
+        <h2>Longhand Properties</h2>
+        <p>This element uses longhand properties for background and borders.</p>
+    </div>
+
+    <!-- Element with shorthand properties -->
+    <div class="shorthand">
+        <h2>Shorthand Properties</h2>
+        <p>This element uses shorthand properties for background and borders.</p>
+    </div>
+
+</body>
+</html>
