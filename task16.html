@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Overflow and Inline-Block</title>
+<style>
+    .container {
+        width: 200px;
+        border: 1px solid #000;
+        overflow: scroll; /* Change to 'visible' or 'hidden' or 'auto' to see different behaviors */
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+        display: inline-block; /*inline,block*/
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="box">this is an example for overflow (visible,hidden,scroll,auto) and inline-block(inline,block)</div>
+</div>
+</body>
+</html>
